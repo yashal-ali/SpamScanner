@@ -231,6 +231,16 @@ st-emotion-cache-16idsys p {
     border-radius: 23px;
     box-shadow: 10px 10px;
 }
+.st-emotion-cache-1n76uvr {
+    width: 780px;
+    position: relative;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    background-color: transparent !important;
+    padding: 30px;
+    border-radius: 26px;
+}
 <style>
 
 </style>
