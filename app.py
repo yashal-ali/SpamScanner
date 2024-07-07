@@ -203,7 +203,7 @@ st-emotion-cache-16idsys p {
     color: inherit;
     width: auto;
     user-select: none;
-    background-color: rgb(29 39 67);
+    background-color: rgb(29 39 67) !important;
     border: 1px solid rgba(49, 51, 63, 0.2);
     color: white;
     padding: 20px;
