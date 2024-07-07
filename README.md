@@ -1,6 +1,5 @@
 
 
-```markdown
 # SMS Spam Classifier using Streamlit
 
 This project implements a simple SMS (Short Message Service) spam classifier using Streamlit, a popular Python library for creating web applications with minimal effort. The classifier uses Natural Language Processing (NLP) techniques to preprocess text data and a machine learning model trained on SMS messages to predict whether a given message is spam or not.
