@@ -38,8 +38,8 @@ model = pickle.load(open('model.pkl','rb'))
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://miro.medium.com/v2/resize:fit:2000/1*Q8wJP6Qgc251ywt7-4Fhhg.jpeg");
-    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-image: url("https://img.freepik.com/premium-photo/fiber-optics-background-generative-ai_1041269-730.jpg");
+    background-size: 100vw 100vh;  
     background-position: center;  
     background-repeat: no-repeat;
 }
@@ -72,10 +72,10 @@ img {
     color: inherit;
     width: auto;
     user-select: none;
-    background-color: rgb(29 67 40);
+    background-color:#921691 !important;
     border: 1px solid rgba(49, 51, 63, 0.2);
     color: white;
-    padding: 10px;
+    padding: 5px;
     min-width:150px 
 }
 .st-emotion-cache-1n76uvr {
@@ -84,6 +84,7 @@ img {
     display: flex;
     flex: 1 1 0%;
     flex-direction: column;
+    padding : 50px
     
 }
 .st-emotion-cache-1r4qj8v {
@@ -100,15 +101,14 @@ img {
     display: flex;
     flex: 1 1 0%;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
-    padding:30px;
+    background-color: rgba(0, 0, 0, 0.7); !important
+    padding:50px !important;
     border-radius: 26px;
 }
 .st-emotion-cache-10trblm {
     position: relative;
     flex: 1 1 0%;
     margin-left: calc(3rem);
-    box-shadow: 10px 10px 5px lightblue;
     padding-left: 20px;
 }
 p, ol, ul, dl {
@@ -155,35 +155,22 @@ st-emotion-cache-16idsys p {
 .st-bs {
     color: rgb(29 67 40);
 }
-.st-emotion-cache-183lzff {
-    white-space: pre;
-    font-size: 61px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 5px;
-    color: honeydew;
-    font-style: italic;
-    font-weight: bolder;
-}
+
 .st-emotion-cache-5rimss p {
     word-break: break-word;
-    color: black;
     font-size: 24px;
-    font-weight: bold;
 }
 .st-emotion-cache-10trblm {
    
-    color: black;
-    font-size: 59px;
+    color: white !important;
+    font-size: 49px;
     margin: 20px;
-        box-shadow: 10px 10px 5px lightblue;
     padding-left: 20px;
 }
 .st-c0 {
     min-height: 169px;
     border: 1px solid;
-    background: white;
+    background: #bfbaba;
     border-radius: 20px;
     box-shadow: 10px 10px black;
     color: #0e101a;
@@ -203,45 +190,61 @@ st-emotion-cache-16idsys p {
     color: inherit;
     width: auto;
     user-select: none;
-    background-color: rgb(29 39 67) !important;
+    background-color: #921691 !important
     border: 1px solid rgba(49, 51, 63, 0.2);
     color: white;
-    padding: 20px;
+    padding: 10px;
     min-width: 150px;
 
 }
-.st-emotion-cache-1vbkxwb p {
-    word-break: break-word;
-    margin-bottom: 0px;
-    font-size: 24px;
-    text-align: center;
-}
+
 .st-emotion-cache-183lzff {
     white-space: pre;
-    font-size: 34px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     display: flex;
     margin: 5px;
-    color: #0e101a;
     font-style: italic;
     font-weight: bolder;
-    background: white;
-    padding: 19px;
-    border-radius: 23px;
-    box-shadow: 10px 10px;
+    background: none;
+    padding: 10px;
+    border-radius: none;
+    text-align: center;
+    margin-left: 48px;
+    color :white !important;
 }
-.st-emotion-cache-1n76uvr {
-    width: 780px;
-    position: relative;
-    display: flex;
-    flex: 1 1 0%;
-    flex-direction: column;
-    background-color: transparent !important;
-    padding: 30px;
-    border-radius: 26px;
+
+.st-emotion-cache-1vbkxwb p {
+    word-break: break-word;
+    margin-top: -10px !important;
+    font-size: 24px;
+    text-align: center;
+    font-weight:900;
 }
-<style>
+
+.st-b1 {
+     background-color: transparent !important;
+}
+
+.st-b0 {
+    border-bottom-color: transparent !important;
+     border-bottom-color:none;
+
+.st-az {
+    border-top-color: none;
+    border-top-color:  transparent !important;
+}
+
+.st-ay {
+     border-right-color:none;
+     border-right-color :transparent !important;
+}
+
+.st-ax {
+    border-left-color: none;
+     border-left-color: transparent !important;
+}
 
 </style>
 """
