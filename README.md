@@ -7,7 +7,6 @@ This project implements a simple SMS (Short Message Service) spam classifier usi
 ![Uploading image.png…]()
 
 
-
 ## Project Structure
 
 - `app.py`: The main Streamlit application file containing the classifier logic.
